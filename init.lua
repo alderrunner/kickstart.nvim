@@ -274,6 +274,7 @@ require('lazy').setup({
 
 vim.cmd('syntax enable')
 vim.cmd('filetype plugin indent on')
+vim.cmd('autocmd FocusGained,BufEnter,CursorHold,CursorHoldI * checktime')
 
 vim.o.tabstop = 4
 vim.o.softtabstop = 4
