@@ -30,7 +30,7 @@ opt.errorbells = false
 opt.encoding = "UTF-8"
 opt.splitright = true
 opt.splitbelow = true
-opt.updatetime = 150
-opt.timeoutlen = 200
+opt.updatetime = 250
+opt.timeoutlen = 300
 
 -- vim: ts=2 sts=2 sw=2 et
